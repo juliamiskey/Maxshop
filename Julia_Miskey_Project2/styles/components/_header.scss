@@ -1,0 +1,60 @@
+
+.main-header {
+	display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: $silver-chalice;
+    padding: 60px 0;
+    width: 90%;
+    margin: 0 auto;
+    ul li {
+        display: inline;
+         &:hover ul {
+            display: block;
+            flex-direction: column;         
+        }
+    }  
+}
+
+.main-nav {
+  margin-left: auto;
+  margin-right: auto
+}
+
+.main-nav ul li {
+    margin-left: 60px;
+  
+}
+
+.main-nav ul li a {
+    color: $silver-chalice; 
+}
+
+.main-nav ul li a:hover {
+    color: $mine-shaft;
+    padding-bottom: 5px;
+    border-bottom: 2px solid $tacha;
+}
+
+ul.dropdown {
+    display: none;
+    position: absolute;
+    li {
+        display: block;
+        margin: 10px 0 0 43%;
+        a:hover {
+            color: $mine-shaft;
+        }
+    }
+}
+
+.controls ul li {
+    margin-left: 15px;
+}
+
+.currency {
+    margin-right: 70px;
+}
+
+// ADD HAMBURGER MENU ON LEFT SIDE AND PLACE MAXSHOP LOGO IN CENTER
+
