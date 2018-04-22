@@ -1,0 +1,63 @@
+// HOME SECTION
+.hero {
+    background-image: url(../assets/main-image-1.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-width: 50%;
+    background-height: 100vh;  
+    position: relative;
+}
+
+.hero-today {
+    margin-top: 0;
+}
+
+.hero p {
+    font-size: 500px;
+    color: rgba(170, 170, 170, 0.219608);
+}
+
+.hero-button {
+    background: $tacha;
+    color: $alabaster;
+    z-index: 2;
+}
+
+.hero-slider-display {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.hero-slider-arrows {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+// CATEGORIES SECTION
+.categories {
+    display: flex;
+    justify-content: space-around;
+}
+
+.category-item2 {
+    outline: 5px solid $alabaster;
+    outline-offset: -35px;
+}
+
+.category-title {
+    font-weight: 700;
+    background: $alabaster;
+}
+
+.category-sidetitle {
+    font-family: $roboto;
+    color: $mine-shaft;
+    line-height: 40px; 
+    transform: rotate(-90deg); 
+    display: inline-block;
+}
+
+
+

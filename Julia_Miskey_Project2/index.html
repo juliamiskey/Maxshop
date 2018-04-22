@@ -23,6 +23,7 @@
     <link rel="stylesheet" href="styles/styles.css">
 </head>
 
+
 <body>
 <!-- HEADER START -->
 <header class="main-header" role="navigation">
@@ -106,26 +107,102 @@
     </div>
 </header>
 
-<section class="home">
-    <script>
-    var today = new Date();
-        var dd = today.getDate();
-        var mm = today.getMonth() + 1;
-        var yyyy = today.getFullYear();
 
-        if (dd < 10) {
-            dd = '0' + dd
-        }
 
-        if (mm < 10) {
-            mm = '0' + mm
-        }
+<!-- _______________________________________________________ -->
 
-        today = dd + '/' + mm + '/' + yyyy;
-        document.write(today);
-    </script>
+<!-- HOME SECTION -->
+<section class="hero" id="hero">
+    <div>
+        <h2 class="hero-today">
+            <script>
+            var today = new Date();
+                var dd = today.getDate();
+                var mm = today.getMonth() + 1;
+                var yyyy = today.getFullYear();
+
+                if (dd < 10) {
+                    dd = '0' + dd
+                }
+
+                if (mm < 10) {
+                    mm = '0' + mm
+                }
+
+                today = dd + '/' + mm + '/' + yyyy;
+                document.write(today);
+            </script>
+        </h2>
+
+        <h3>
+            Bring Glamour to your wardrobe
+        </h3>
+
+        <h1>
+            Summer Collection 2018”
+        </h1>
+
+        <a href="#" class="hero-button button">
+            View More
+        </a>
+
+        <p>
+            01
+        </p>
+    </div>
+
+    <div class="hero-slider-display">
+        <img src="assets/home-icon.png" alt="">
+    </div>
+
+    <div class="hero-slider-arrows">
+        <i class="fas fa-angle-left"></i>
+        <i class="fas fa-angle-right"></i>
+    </div>
 
 </section>
+
+
+
+<!-- CATEGORIES SECTION -->
+<section class="categories" id="categories">
+    <div class="category-item category-item-1">
+        <div class="image-container">
+            <img src="assets/image-1.png" alt="woman wearing a statement necklace">
+        </div>
+        <h2 class="category-title">
+            Fashion and Accessories
+        </h2>
+        <p class="category-sidetitle">
+            Diverse Products.
+        </p>
+    </div>
+
+    <div class="category-item category-item-2">
+        <div class="image-container">
+            <img src="assets/image-2.png" alt="Woman in a dress with a pink blazer, backpack and heels">
+        </div>
+        <h2 class="category-title">
+            New Collections
+        </h2>
+        <p class="category-sidetitle">
+            Unique Novelties.
+        </p>
+    </div>
+
+    <div class="category-item category-item-3">
+        <div class="image-container">
+            <img src="assets/image-3.png" alt="close up off-center photo of a model wearing a blouse with a sweater">
+        </div>
+        <h2 class="category-title">
+            Spring/Summer Lookbook
+        </h2>
+        <p class="category-sidetitle">
+            Diverse Products.
+        </p>
+    </div>
+</section>
+
 
 
 </body>

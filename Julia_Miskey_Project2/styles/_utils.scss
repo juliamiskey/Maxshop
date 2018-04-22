@@ -22,3 +22,24 @@ $tacha: rgb(212, 189, 82);
 
 // LIGHTGREY #eeeeee
 $gallery-grey: rbg(238, 238, 238);
+
+
+
+
+// MEDIA QUERIES
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+};
+
+    
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) { 
+};
+    
+/* Landscape phones and down */
+@media (max-width: 480px) {
+};
+
+
+
+
