@@ -1,63 +1,85 @@
 // HOME SECTION
 .hero {
-    background-image: url(../assets/main-image-1.png);
-    background-repeat: no-repeat;
-    background-position: right;
-    background-width: 50%;
-    background-height: 100vh;  
-    position: relative;
+    min-height: 75vh;
+    display: flex;
 }
 
-.hero-today {
-    margin-top: 0;
+.hero-page-number {
+    width: 40%;
+    display: flex;  
+    justify-content: flex-end;
+    align-items: flex-end;
 }
 
-.hero p {
-    font-size: 500px;
+.hero-page-number p {
+    font-size: 20px;
     color: rgba(170, 170, 170, 0.219608);
+    margin: 0;
 }
 
-.hero-button {
-    background: $tacha;
-    color: $alabaster;
-    z-index: 2;
+.hero-image {
+    height:100%;
+    width:60%;
 }
 
-.hero-slider-display {
-    position: absolute;
-    bottom: 0;
-    left: 0;
-}
+// .hero-content {
+//     z-index: 2;
+// }
 
-.hero-slider-arrows {
-    position: absolute;
-    bottom: 0;
-    right: 0;
-}
+// .hero-button {
+//     background: $tacha;
+//     color: $alabaster;
+// }
+
+// .hero-slider-display {
+//     position: absolute;
+//     bottom: 0;
+//     left: 0;
+// }
+
+// .hero-slider-arrows {
+//     position: absolute;
+//     bottom: 0;
+//     right: 0;
+// }
+
 
 // CATEGORIES SECTION
-.categories {
+// .categories {
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+// .category-item {
+//     display: flex;
+// }
+
+// .category-item2 {
+//     outline: 5px solid $alabaster;
+//     outline-offset: -35px;
+// }
+
+// .category-title {
+//     font-weight: 700;
+//     background: $alabaster;
+// }
+
+// .category-sidetitle {
+//     font-family: $roboto;
+//     color: $mine-shaft;
+//     line-height: 40px; 
+//     transform: rotate(-90deg); 
+//     display: inline-block;
+// }
+
+
+// PRODUCTS SECTIONS
+.product-nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    p {
+        display: inline;
+        font-family: Roboto;
+        color: #888888;
+    }
 }
-
-.category-item2 {
-    outline: 5px solid $alabaster;
-    outline-offset: -35px;
-}
-
-.category-title {
-    font-weight: 700;
-    background: $alabaster;
-}
-
-.category-sidetitle {
-    font-family: $roboto;
-    color: $mine-shaft;
-    line-height: 40px; 
-    transform: rotate(-90deg); 
-    display: inline-block;
-}
-
-
-

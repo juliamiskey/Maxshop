@@ -30,8 +30,7 @@ body {
 }
 
 .img-container {
-    overflow: hidden;
-    max-width: 100%;
+    object-fit: fill 
 }
 
 img { 

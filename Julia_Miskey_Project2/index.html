@@ -99,7 +99,7 @@
 
             <li class="shopping-bag">
                 <a href="">
-                    <img src="assets/shopping-bag.png" alt="Shopping-bag Icon">
+                    <img src="assets/bag.png" alt="Shopping-bag icon with number of items in bag">
                 </a>
             </li>
 
@@ -109,101 +109,308 @@
 
 
 
-<!-- _______________________________________________________ -->
+<!-- HERO SECTION -->
+    <section class="hero" id="hero">
 
-<!-- HOME SECTION -->
-<section class="hero" id="hero">
-    <div>
-        <h2 class="hero-today">
-            <script>
-            var today = new Date();
-                var dd = today.getDate();
-                var mm = today.getMonth() + 1;
-                var yyyy = today.getFullYear();
+        <div class="hero-page-number">
+            <p>01</p>
+        </div>
 
-                if (dd < 10) {
-                    dd = '0' + dd
-                }
+        <div class="hero-image">
+            <img src="assets/main-image-1.png" alt="">
+        </div> 
+        
+    <!-- <div class="hero-content"> 
+            <h2 class="hero-today">
+                <script>
+                var today = new Date();
+                    var dd = today.getDate();
+                    var mm = today.getMonth() + 1;
+                    var yyyy = today.getFullYear();
 
-                if (mm < 10) {
-                    mm = '0' + mm
-                }
+                    if (dd < 10) {
+                        dd = '0' + dd
+                    }
 
-                today = dd + '/' + mm + '/' + yyyy;
-                document.write(today);
-            </script>
-        </h2>
+                    if (mm < 10) {
+                        mm = '0' + mm
+                    }
 
-        <h3>
-            Bring Glamour to your wardrobe
-        </h3>
+                    today = dd + '/' + mm + '/' + yyyy;
+                    document.write(today);
+                </script> 
+            </h2>
 
-        <h1>
-            Summer Collection 2018”
-        </h1>
+            <h3>
+                Bring Glamour to your wardrobe
+            </h3>
 
-        <a href="#" class="hero-button button">
-            View More
-        </a>
+            <h1>
+                Summer Collection 2018”
+            </h1>
 
-        <p>
-            01
-        </p>
-    </div>
+            <a href="#" class="hero-button button">
+                View More
+            </a>
+        </div>
 
-    <div class="hero-slider-display">
-        <img src="assets/home-icon.png" alt="">
-    </div>
+        <div class="hero-slider-display">
+            <img src="assets/home-icon.png" alt="">
+        </div>
 
-    <div class="hero-slider-arrows">
-        <i class="fas fa-angle-left"></i>
-        <i class="fas fa-angle-right"></i>
-    </div>
+        <div class="hero-slider-arrows">
+            <i class="fas fa-angle-left"></i>
+            <i class="fas fa-angle-right"></i>
+        </div>  -->
 
-</section>
-
+    </section> 
 
 
 <!-- CATEGORIES SECTION -->
-<section class="categories" id="categories">
-    <div class="category-item category-item-1">
-        <div class="image-container">
-            <img src="assets/image-1.png" alt="woman wearing a statement necklace">
+    <section class="categories" id="categories">
+        <div class="category-item category-item-1">
+            <div class="image-container">
+                <img src="assets/image-1.png" alt="woman wearing a statement necklace">
+            </div>
+            <h2 class="category-title">
+                Fashion and Accessories
+            </h2>
+            <p class="category-sidetitle">
+                Diverse Products.
+            </p>
         </div>
-        <h2 class="category-title">
-            Fashion and Accessories
-        </h2>
-        <p class="category-sidetitle">
-            Diverse Products.
-        </p>
-    </div>
 
-    <div class="category-item category-item-2">
-        <div class="image-container">
-            <img src="assets/image-2.png" alt="Woman in a dress with a pink blazer, backpack and heels">
+        <div class="category-item category-item-2">
+            <div class="image-container">
+                <img src="assets/image-2.png" alt="Woman in a dress with a pink blazer, backpack and heels">
+            </div>
+            <h2 class="category-title">
+                New Collections
+            </h2>
+            <p class="category-sidetitle">
+                Unique Novelties.
+            </p>
         </div>
-        <h2 class="category-title">
-            New Collections
-        </h2>
-        <p class="category-sidetitle">
-            Unique Novelties.
-        </p>
-    </div>
 
-    <div class="category-item category-item-3">
-        <div class="image-container">
-            <img src="assets/image-3.png" alt="close up off-center photo of a model wearing a blouse with a sweater">
+        <div class="category-item category-item-3">
+            <div class="image-container">
+                <img src="assets/image-3.png" alt="close up off-center photo of a model wearing a blouse with a sweater">
+            </div>
+            <h2 class="category-title">
+                Spring/Summer Lookbook
+            </h2>
+            <p class="category-sidetitle">
+                Diverse Products.
+            </p>
         </div>
-        <h2 class="category-title">
-            Spring/Summer Lookbook
-        </h2>
-        <p class="category-sidetitle">
-            Diverse Products.
-        </p>
-    </div>
-</section>
+    </section>
 
+    
 
+<!-- PRODUCTS SECTION -->
+    <section class="products" id="products">
+        <div class="container">
+            <h2>Top Products</h2>
+            <div class="product-nav">
+                <p>Come & Check our new spring summer collection 2018</p>
+                <p>Prev / Next</p>
+            </div>
 
+            <div class="product product-1">
+                <img src="assets/top-product-1.png" alt="Light pink crochet Sweater">
+                <p class="product-description">Lipsy Crochet Sweater</p>
+                <p class="product-type">Sweater</p>
+                <p class="product-price">$ 100.00 <span>$150.00</span></p>
+                <img src="assets/shopping-bag.png" alt="Add to cart">
+            </div>
+
+            <div class="product product-2">
+                <img src="assets/top-product-2.png" alt="Sea-foam Green Infinity Scarf">
+                <p class="product-description">Signature Oblong Scarf</p>
+                <p class="product-type">Accessories</p>
+                <p class="product-price">$ 45.00</p>
+                <img src="assets/shopping-bag.png" alt="Add to cart">
+            </div>
+
+            <div class="product product-3">
+                <img src="assets/top-product-3.png" alt="Floppy felt wool hat in black">
+                <p class="product-description">Floppy Felt Wool Hat</p>
+                <p class="product-type">Accessories</p>
+                <p class="product-price">$ 90.00</p>
+                <img src="assets/shopping-bag.png" alt="Add to cart">
+            </div>
+
+            <div class="product product-4">
+                <img src="assets/Top-product-4.png" alt="Light Grey embroidered T-shirt">
+                <p class="product-description">Embroidered Skater T-Shirt</p>
+                <p class="product-type">T-shirt</p>
+                <p class="product-price">$ 55.00</p>
+                <img src="assets/shopping-bag.png" alt="Add to cart">
+            </div>
+
+        </div>
+    </section>
+
+<!-- LOOKBOOK SECTION -->
+    <section class="lookbook">
+        <div class="container">
+
+        </div>
+    </section>
+
+<!-- SALE SECTION -->
+        <section class="sale" id="sale">
+            <div class="container">
+                <h2>Onsale Products</h2>
+                <div class="product-nav">
+                    <p>Come & Check our sale items from collection 2017</p>
+                    <p>Prev / Next</p>
+                </div>
+        
+                <div class="product product-1">
+                    <img src="assets/onsale-products-1.png" alt="tight light blue jeans for men">
+                    <p class="product-description"> Stretch Bootcut Jeans</p>
+                    <p class="product-type">Pants</p>
+                    <p class="product-price">$ 120.00
+                        <span>$150.00</span>
+                    </p>
+                    <img src="assets/shopping-bag.png" alt="Add to cart">
+                </div>
+        
+                <div class="product product-2">
+                    <img src="assets/onsale-products-2.png" alt="Loose-fitting Denim Jacket">
+                    <p class="product-description">Premium Washed Denim Jacket</p>
+                    <p class="product-type">Jacket</p>
+                    <p class="product-price">$ 55.00</p>
+                    <img src="assets/shopping-bag.png" alt="Add to cart">
+                </div>
+        
+                <div class="product product-3">
+                    <img src="assets/onsale-products-3.png" alt="White and black polkadot Bathing suit with Black High-Waisted Bottoms">
+                    <p class="product-description">High-Waisted Bikini Set</p>
+                    <p class="product-type">Swim Wear</p>
+                    <p class="product-price">$ 25.00</p>
+                    <img src="assets/shopping-bag.png" alt="Add to cart">
+                </div>
+        
+                <div class="product product-4">
+                    <img src="assets/onsale-products-4.png" alt="Large pink scarf with black detail">
+                    <p class="product-description">Blanket Scarf</p>
+                    <p class="product-type">Accessories</p>
+                    <p class="product-price">$ 35.00</p>
+                    <img src="assets/shopping-bag.png" alt="Add to cart">
+                </div>
+        
+            </div>
+        </section>
+
+<!-- BLOG SECTION -->
+    <section class="blog" id="blog">
+        <div class="container">
+        
+        </div>
+    </section>
+
+<!-- PROMOTIONS SECTION -->
+    <section class="promotion">
+        <div class="promotion-design">
+            <img src="assets/footer-1.png" alt="man in grey hoodie outside in the fall">
+            <div class="promotion-design-text">
+                <h2>Rethink Your Design</h2>
+                <p>Minimal & Modern Look</p>
+                <a href="#" class="button">Discover More</a>
+            </div>
+        </div>
+
+        <div class="promotion-fashion-shop">
+            <img src="assets/footer-2.png" alt="girl in bright summer dress and hat on a pier">
+            <div class="promotion-fashion-shop-text">
+                <h2>We Are Fashion Shop</h2>
+                <p>Revolutionary Concepts</p>
+                <a href="#" class="button">Shop Now</a>
+            </div>
+        </div>
+    </section>
+
+<!-- FOOTER -->
+    <footer>
+<!-- FOOTER NAV -->
+        <section class="footer-nav">
+            <div class="container">
+                <div class="footer-nav-item">
+                    <p class="footer-heading">Contact</p>
+                    <address>
+                        621 Bingamon Branch Road Warwick NY 10990
+                    </address>
+                    <p>
+                        Phone : 845-988-7165 <br>
+                        Fax: 814-468-0188 <br>
+                        <a href="Support@maxshop.com">Email: Support@maxshop.com</a>
+                    </p>
+                </div>
+
+                <div class="footer-nav-item">
+                    <p class="footer-heading">Tags</p>
+                    <a href="#"creative></a> <a href="#">blog</a> <a href="#"maxshopthemes></a> <a href="#">themeforest</a> <a href="#">logo</a> <a href="#">template</a> <a href="#">psd</a> <a href="#">Wordpress</a>
+                </div>
+
+                <div class="footer-nav-item">
+                    <p class="footer-heading">Instagram</p>
+
+                </div>
+
+                <div class="footer-nav-item">
+                    <p class="footer-heading">Newsletter</p>
+                    <p>Sign up for out Newsletter & Events</p>
+                    <input type="email" name="newsletter" id="newsletter">
+                    <input type="submit" value="Sign up">
+                </div>
+            </div>
+        </section>
+
+ <!-- FOOTER SOCIALS -->
+        <section class="footer-socials">
+            <div class="container">
+                <p class="footer-heading">Follow us on</p>
+                <ul>
+                    <li>
+                        <a href="#">Behance</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Dribble</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Themeforest</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Pinterest</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Facebook</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Twitter</a>
+                    </li>
+
+                </ul>
+            </div>
+        </section>
+
+<!-- FOOTER LEGAL -->
+        <section class="footer-legal">   
+            <div class="container">
+                <div class="footer-legal-content">
+                    <p>&copy; Maxshop 2016. All rights reserved</p>
+                    <p><a href="#">Terms of Use</a> <a href="#">Privacy policy</a> <a href="#">Contact us</a></p>
+                </div>
+            </div>
+        </section>
+
+    </footer>
 </body>
 </html>
