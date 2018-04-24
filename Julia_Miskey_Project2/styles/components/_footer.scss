@@ -1,0 +1,96 @@
+
+// FOOTER STYLES
+footer {
+    background: $mine-shaft;
+    color: $alabaster;
+    a {
+        color: $alabaster;
+        a:hover {
+            color: $tacha;
+        }
+    }
+}
+
+.footer-nav-and-socials {
+    padding: 100px 0 50px;
+}
+
+.footer-nav {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1em;
+}
+
+.footer-nav-tags li {
+    display: inline-block;
+    margin: 2px;
+    padding: 1px 2px;
+    border: 1px solid $alabaster;
+    :hover {
+        color: $tacha;
+    }
+
+}
+
+.footer-nav-instagram-preview {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: .5em;
+    margin: 0 auto;
+
+}
+
+.footer-socials {
+    text-align: center;
+    li {
+        display: inline-block;
+        margin: 20px;
+         a:hover {
+            border: 1px solid $tacha;
+        }
+    }
+}
+
+// MEDIA QUERIES
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+};
+
+    
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) { 
+};
+    
+/* Landscape phones and down */
+@media (max-width: 480px) {
+};
+a
+
+// FOOTER-LEGAL STYLES
+.footer-legal {
+    background: rgb(62, 62, 62);
+}
+
+
+.footer-legal-content {
+    display: flex;
+    justify-content: space-between;
+    a {
+        border-right: 1px solid #e0e0e0;
+    }
+}
+
+// MEDIA QUERIES
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+};
+
+    
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) { 
+};
+    
+/* Landscape phones and down */
+@media (max-width: 480px) {
+};

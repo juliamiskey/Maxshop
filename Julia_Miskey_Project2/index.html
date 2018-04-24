@@ -26,7 +26,7 @@
 
 <body>
 <!-- HEADER START -->
-<header class="main-header" role="navigation">
+<header class="main-header large-container" role="navigation">
     <div class="logo">
         <img src="assets/logo.png" alt="maxshop logo" class="logo">
     </div>
@@ -68,19 +68,28 @@
         </ul>
     </nav>
 
+
     <div class="controls">
         <ul>
             <li class="currency">
                 <img src="assets/gbflag.png" alt="UK flag" width="24px" height="19px"> GB <i class="fas fa-chevron-down" aria-hidden></i>
                     <ul class="dropdown">
                         <li>
-                            <img src="assets/canadaflag.png" alt="Canadian flag" width="24px" height="19px"> 
-                            CAD
+                            <img src="assets/germanyflag.png" alt="Germany flag" width="24px" height="19px"> 
+                            DE
                         </li>
 
                         <li>
-                            <img src="assets/usaflag.png" alt="USA flag" width="24px" height="19px">
-                            USD
+                            <img src="assets/franceflag.png" alt="France flag" width="24px" height="19px">
+                            FR
+                        </li>
+
+                        <li>
+                            <img src="assets/usaflag.png" alt="UnitedStates flag" width="24px" height="19px"> US
+                        </li>
+
+                        <li>
+                            <img src="assets/brazilflag.png" alt="Brazil flag" width="24px" height="19px"> BR
                         </li>
                     </ul>
             </li>
@@ -149,55 +158,56 @@
             </a>
         </div>
 
+        <img src="assets/main-image-1.png" alt="White and beige dresses hanging on hangers against a white brick wall">
+
         <div class="hero-slider-display">
             <img src="assets/home-icon.png" alt="">
         </div>
-
+        
         <div class="hero-slider-arrows">
-            <i class="fas fa-angle-left"></i>
-            <i class="fas fa-angle-right"></i>
+            <i class="fas fa-angle-left arrow"></i>
+            <i class="fas fa-angle-right arrow"></i>
         </div>
-
-        <img src="assets/main-image-1.png" alt="White and beige dresses hanging on hangers against a white brick wall">
     </section> 
 
 
 <!-- CATEGORIES SECTION -->
     <section class="categories" id="categories">
         <div class="category-item category-item-1">
+            <p class="category-sidetitle sideways">
+                Diverse Products.
+            </p>
             <div class="image-container">
                 <img src="assets/image-1.png" alt="woman wearing a statement necklace">
             </div>
             <h2 class="category-title">
                 Fashion and Accessories
             </h2>
-            <p class="category-sidetitle">
-                Diverse Products.
-            </p>
+         
         </div>
 
         <div class="category-item category-item-2">
+            <p class="category-sidetitle sideways">
+                Unique Novelties.
+            </p>
             <div class="image-container">
                 <img src="assets/image-2.png" alt="Woman in a dress with a pink blazer, backpack and heels">
             </div>
             <h2 class="category-title">
                 New Collections
             </h2>
-            <p class="category-sidetitle">
-                Unique Novelties.
-            </p>
         </div>
 
         <div class="category-item category-item-3">
+            <p class="category-sidetitle sideways">
+                Diverse Products.
+            </p>
             <div class="image-container">
                 <img src="assets/image-3.png" alt="close up off-center photo of a model wearing a blouse with a sweater">
             </div>
             <h2 class="category-title">
                 Spring/Summer Lookbook
             </h2>
-            <p class="category-sidetitle">
-                Diverse Products.
-            </p>
         </div>
     </section>
 
@@ -217,7 +227,7 @@
                     <img src="assets/top-product-1.png" alt="Light pink crochet Sweater">
                     <p class="product-description">Lipsy Crochet Sweater</p>
                     <p class="product-type">Sweater</p>
-                    <p class="product-price">$ 100.00 <span>$150.00</span></p>
+                    <p class="product-price">$ 100.00 <span><del>$150.00</del></span></p>
                     <img src="assets/shopping-bag.png" alt="Add to cart">
                 </div>
 
@@ -251,8 +261,22 @@
 <!-- LOOKBOOK SECTION -->
     <section class="lookbook">
         <div class="container">
+            <img src="assets/main-image-2.png" alt="a rack full of t-shirt in an assortment of colors">
 
+            <div class="lookbook-content">
+                <h2>Salvatore Ferragamo Lookbook</h2>
+                <h2>Spring/Summer 2016</h2>
+                <p>18 June 2018 / Salvatore Campaign</p>
+                <a href="#" class="lookbook-button button">
+                    View More
+                </a>
+            </div>
         </div>
+        <!-- <img src="assets/lookbook-border.png" alt="">
+        <div class="lookbook-slider-arrows">
+            <i class="fas fa-angle-left arrow"></i>
+            <i class="fas fa-angle-right arrow"></i>
+        </div> -->
     </section>
 
 <!-- SALE SECTION -->
@@ -270,7 +294,7 @@
                         <p class="product-description"> Stretch Bootcut Jeans</p>
                         <p class="product-type">Pants</p>
                         <p class="product-price">$ 120.00
-                            <span>$150.00</span>
+                            <span><del>$150.00</del></span>
                         </p>
                         <img src="assets/shopping-bag.png" alt="Add to cart">
                     </div>
@@ -343,7 +367,7 @@
                             621 Bingamon Branch Road Warwick NY 10990
                         </address>
                         <p>
-                            Phone : 845-988-7165 <br>
+                            Phone: 845-988-7165 <br>
                             Fax: 814-468-0188 <br>
                             <a href="Support@maxshop.com">Email: Support@maxshop.com</a>
                         </p>
@@ -351,12 +375,28 @@
 
                     <div class="footer-nav-item">
                         <p class="footer-heading">Tags</p>
-                        <a href="#"creative></a> <a href="#">blog</a> <a href="#"maxshopthemes></a> <a href="#">themeforest</a> <a href="#">logo</a> <a href="#">template</a> <a href="#">psd</a> <a href="#">Wordpress</a>
+                        <ul class="footer-nav-tags">
+                            <li><a href="#">creative</a></li>
+                            <li><a href="#">blog</a></li>
+                            <li><a href="#">maxshopthemes</a></li>
+                            <li><a href="#">themeforest</a></li>
+                            <li><a href="#">logo</a></li>
+                            <li><a href="#">template</a></li>
+                            <li><a href="#">psd</a></li>
+                            <li><a href="#">Wordpress</a></li>
+                        </ul>
                     </div>
 
                     <div class="footer-nav-item">
                         <p class="footer-heading">Instagram</p>
-
+                        <div class="footer-nav-instagram-preview">
+                            <img src="assets/insta-1.png" alt="">
+                            <img src="assets/insta-2.png" alt="">
+                            <img src="assets/insta-3.png" alt="">
+                            <img src="assets/insta-4.png" alt="">
+                            <img src="assets/insta-5.png" alt="">
+                            <img src="assets/insta-6.png" alt="">
+                        </div>
                     </div>
 
                     <div class="footer-nav-item">
@@ -371,27 +411,27 @@
                     <p class="footer-heading">Follow us on</p>
                     <ul>
                         <li>
-                            <a href="#">Behance</a>
+                            <a href="https://www.behance.net/">Behance</a>
                         </li>
 
                         <li>
-                            <a href="#">Dribble</a>
+                            <a href="https://dribbble.com/">Dribble</a>
                         </li>
 
                         <li>
-                            <a href="#">Themeforest</a>
+                            <a href="https://themeforest.net/">Themeforest</a>
                         </li>
 
                         <li>
-                            <a href="#">Pinterest</a>
+                            <a href="https://www.pinterest.ca/">Pinterest</a>
                         </li>
 
                         <li>
-                            <a href="#">Facebook</a>
+                            <a href="https://www.facebook.com/"></a>Facebook</a>
                         </li>
 
                         <li>
-                            <a href="#">Twitter</a>
+                            <a href="https://twitter.com/">Twitter</a>
                         </li>
 
                     </ul>
@@ -404,7 +444,7 @@
             <div class="container">
                 <div class="footer-legal-content">
                     <p>&copy; Maxshop 2016. All rights reserved</p>
-                    <p><a href="#">Terms of Use</a> | <a href="#">Privacy policy</a> | <a href="#">Contact us</a></p>
+                    <p><a href="#">Terms of Use</a> <a href="#">Privacy policy</a> <a href="#">Contact us</a></p>
                 </div>
             </div>
         </section>

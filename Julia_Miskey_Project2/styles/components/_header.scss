@@ -6,6 +6,7 @@
     color: $silver-chalice;
     padding: 60px 0;
     width: 90%;
+    max-width: 1720px;
     margin: 0 auto;
     ul li {
         display: inline;
@@ -58,3 +59,18 @@ ul.dropdown {
 
 // ADD HAMBURGER MENU ON LEFT SIDE AND PLACE MAXSHOP LOGO IN CENTER
 
+
+
+// MEDIA QUERIES
+/* Portrait tablet and small desktops */
+@media (max-width: 940px) {
+};
+
+    
+/* Landscape phone to portrait tablet */
+@media (min-width: 768px) { 
+};
+    
+/* Landscape phones and down */
+@media (max-width: 480px) {
+};

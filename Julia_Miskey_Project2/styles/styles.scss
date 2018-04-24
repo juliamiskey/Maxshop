@@ -7,6 +7,11 @@
 @import 'components/footer.scss';
 
 /* GENERAL STYLES */
+
+// * {
+//     border: 1px solid red;
+// }
+
 html {
     font-size: 62.5%;
     margin: 0 auto;
@@ -22,15 +27,23 @@ body {
     font-weight: 400;
 }
 
+.large-container {
+    /* Width calculation: 1720px/1920px=90% */
+    width: 90%;
+    max-width: 1720px;
+    margin: 0 auto;
+}
+
 .container {
-    /* Width calculation 1172px/1920px=61% */
+    /* Width calculation: 1172px/1920px=61% */
     width: 61%;
     max-width: 1172px;
     margin: 0 auto;
 }
 
 .img-container {
-    object-fit: fill 
+    object-fit: fill;
+    width: 100%; 
 }
 
 img { 
@@ -47,3 +60,9 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+.sideways {
+    transform: rotate(-90deg); 
+}
+
+

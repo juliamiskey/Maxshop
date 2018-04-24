@@ -1,0 +1,7 @@
+Fonts
+Roboto (Google Fonts)
+Montserrat (Google Fonts)
+
+Icons: 
+Font Awesome (http://fontawesome.io/)
+Flat Icons (https://www.flaticon.com/)
