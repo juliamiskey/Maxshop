@@ -1,17 +1,16 @@
 // HOME SECTION STYLES
 .hero {
-    height: 80vh;
+    height: calc(100vh - 200px);
     display: flex;  
-    img {
-        justify-content: flex-end;
-        height: 100%;
-        width: 100%;
-    }
+    line-height: 1.2;
+    position: relative;
 }
 
 .hero-content {
     z-index: 1;
-    padding-left: 250px;
+    width: 40vw;
+    position: relative;
+    padding-left: 15%;
 }
 
 .hero-today {
@@ -19,16 +18,24 @@
 }
 
 .hero-page-number {
-    font-size: 500px;
+    font-size: 300px;
     font-weight: 700;
     color: rgba(170, 170, 170, 0.219608);
     margin: 0;
+    position: absolute;
+    bottom: 0;
 }
 
 .hero-button {
     background: $tacha;
     color: $alabaster;
-    z-index:2
+    z-index:2;
+}
+
+.hero-image {
+    width: 60vw;
+    background-image: url(../assets/main-image-1.png);
+    background-size: cover;
 }
 
 .hero-slider-display {
@@ -41,49 +48,50 @@
     position: absolute;
     bottom: 0;
     right: 0;
+    background: $alabaster;
 }
+
 
 // CATEGORIES SECTION STYLES
 .categories {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+    padding: 0 5%;
 }
 
 .category-item {
     display: flex;
+    position: relative;
+    padding-left: 50px; 
 }
 
 .category-item2 {
     outline: 5px solid $alabaster;
     outline-offset: -35px;
+    z-index: 2;
 }
 
 .category-title {
     font-weight: 700;
-    background: $alabaster;
+    background: #fcfcfc;
+    position: absolute;
+    bottom: 10%;
+    left: 0%;
+    width: 49%;
+    padding: 2%;
 }
 
 .category-sidetitle {
     font-family: $roboto;
     color: $mine-shaft;
     line-height: 40px; 
-    display: inline-block;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    top: 0;
 }
-
-// MEDIA QUERIES
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-};
-
-    
-/* Landscape phone to portrait tablet */
-@media (min-width: 768px) { 
-};
-    
-/* Landscape phones and down */
-@media (max-width: 480px) {
-};
-
 
 // PRODUCTS SECTION STYLES
 .product-nav {
@@ -123,23 +131,22 @@
     }
 }
 
-// MEDIA QUERIES
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-};
+.product-image {
+    // position: absolute;
+}
 
-    
-/* Landscape phone to portrait tablet */
-@media (min-width: 768px) { 
-};
-    
-/* Landscape phones and down */
-@media (max-width: 480px) {
-};
+.bag {
+    background: $mine-shaft;
+    padding: 10px;
+    // position: relative;
+    :hover {
+         background: $tacha;
+    }
+}
+
 
 
 // LOOKBOOK SECTION STYLES
-
 .lookbook .container{
     display: flex;  
 }
@@ -153,10 +160,60 @@
     }
 }
 
-
-// SALE SECTION STYLES
+.lookbook-slider-arrows {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: $alabaster;
+}
 
 // BLOG SECTION STYLES
+.blog-item-1,
+.blog-item-2 {
+    display: flex;
+}
+
+.blog-item-1-text {
+    padding-left: 3em;
+}
+
+.blog-item-2-text {
+    text-align: right;
+    padding-right: 3em;
+}
+
+.blog-section {
+    color: $silver-chalice;
+    text-transform: uppercase;
+    font-size: 1.2rem; 
+    line-height: 30px; 
+}
+
+.blog-title {
+    color: $mine-shaft;
+    font-size: 2rem;
+}
+
+.blog-date {
+    font-family: $roboto;
+    color: $silver-chalice;
+    font-size: 1.4rem; 
+    line-height: 30px; 
+}
+
+.blog-content {
+    font-family: $roboto;
+    color: $emperor-grey;
+    font-size: 1.5rem;
+    line-height: 28px; 
+}
+
+.blog-slider-arrows {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    background: $mine-shaft;
+}
 
 // PROMOTIONS SECTION STYLES
 
@@ -165,12 +222,14 @@
 }
 
 .promotion-design {
-    // position: absolute;
+    position: relative;
 }
 
 .promotion-design-text {
-    // position: relative;
+    position: absolute;
     z-index: 2;
+    top: 26%;
+    right: 50%;
     color: $alabaster;
     a, h2 {
         color: $alabaster;
@@ -178,30 +237,17 @@
     }
 }
 
-
-.promotion-fashion-shop{
-    // position: absolute;
+.promotion-fashion-shop {
+    position: relative;
 }
 
 .promotion-fashion-shop-text {
-    // position: relative;
+    position: absolute;
     z-index: 2;
+    top: 26%;
+    right: 50%;
     p {
         color: $grey;
     }
 }
 
-
-// MEDIA QUERIES
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-};
-
-    
-/* Landscape phone to portrait tablet */
-@media (min-width: 768px) { 
-};
-    
-/* Landscape phones and down */
-@media (max-width: 480px) {
-};

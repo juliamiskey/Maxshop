@@ -4,7 +4,8 @@
     justify-content: space-around;
     align-items: center;
     color: $silver-chalice;
-    padding: 60px 0;
+    // padding: 60px 0;
+    height: 200px;
     width: 90%;
     max-width: 1720px;
     margin: 0 auto;
@@ -59,7 +60,68 @@ ul.dropdown {
 
 // ADD HAMBURGER MENU ON LEFT SIDE AND PLACE MAXSHOP LOGO IN CENTER
 
+// .navbar {
+//   overflow: hidden;
+//   height: 50px;
+// }
 
+// .open-side {
+//   position: fixed;
+// }
+
+// .hambuger-menu a {
+//   float: left;
+//   display: block;
+//   color: $mine-shaft;
+//   text-align: center;
+//   padding: 16px 16px;
+// //   margin-right: 6em;
+//   text-decoration: none;
+//   font-size: 17px;
+// }
+
+// .hamburger-menu a:hover {
+//     transition: .5s;
+//     background: #fff; 
+// }
+
+// .hamburger {
+//   height: 100%;
+//   width: 0;
+//   position: fixed;
+//   z-index: 2;
+//   top: 0;
+//   left: 0;
+//   background-color: $mine-shaft;
+//   opacity: 0.9;
+//   overflow-x: hidden;
+//   padding-top: 60px;
+//   transition: 0.5s;
+// }
+
+// .hamburger a {
+//   padding: 10px 10px 10px 30px;
+//   text-decoration: none;
+//   font-size: 22px;
+//   color: $alabaster;
+//   display: block;
+//   transition: 0.3s;
+//   text-transform: uppercase;
+// }
+
+
+// .hamburger a:hover {
+//   color: #5b82a7;
+//   transform: translateX(-10px); 
+// }
+
+// .hamburger .close-side {
+//   position: absolute;
+//   top: 0;
+//   right: 22px;
+//   font-size: 36px;
+//   margin-left: 50px;
+// }
 
 // MEDIA QUERIES
 /* Portrait tablet and small desktops */

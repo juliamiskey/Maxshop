@@ -68,7 +68,64 @@
         </ul>
     </nav>
 
+<!-- HAMBURGER MENU -->
+<!-- <nav class="hamburger-menu">
+    <span class="open-side">
+        <a href="#" onclick="openSideMenu()">
+            <svg width="30" height="30">
+                <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
+                <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
+                <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+            </svg>
+        </a>
+    </span>
+</nav>
 
+
+<div id="side-nav" class="side-nav">
+    <a href="#" class="close-side" onclick="closeSideMenu()">&times;</a>
+    <nav class="main-nav">
+        <ul>
+            <li class="menu-item">
+                <a href="#home">Home</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#sale">Fashion & Accessories</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#top-products">New Collection</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#lookbook">Spring/Summer Lookbook</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#lookbook">Lookbook</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#contact">Contact</a>
+            </li>
+
+            <li class="menu-item">
+                <a href="#blog">Blog</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+
+SCRIPT FOR SIDE MENU 
+<script>
+    function openSideMenu() {
+        document.getElementById('side-nav').style.width = '25%';
+    }
+    function closeSideMenu() {
+        document.getElementById('side-nav').style.width = '0%';
+    }
+</script> -->
     <div class="controls">
         <ul>
             <li class="currency">
@@ -153,62 +210,71 @@
             </h1>
 
             <p class="hero-page-number">01</p>
+            
             <a href="#" class="hero-button button">
                 View More
             </a>
         </div>
 
-        <img src="assets/main-image-1.png" alt="White and beige dresses hanging on hangers against a white brick wall">
+        <div class="hero-image">
+            <!-- Empty div for background image -->
+        </div>
 
         <div class="hero-slider-display">
-            <img src="assets/home-icon.png" alt="">
+            <img src="assets/home-icon.png" alt="displays the page of the slider">
         </div>
         
-        <div class="hero-slider-arrows">
-            <i class="fas fa-angle-left arrow"></i>
-            <i class="fas fa-angle-right arrow"></i>
+        <div class="hero-slider-arrows">  
+            <div class="arrow-left">
+                <i class="fas fa-angle-left arrow"></i>
+            </div>
+
+            <div class="arrow-right">
+                <i class="fas fa-angle-right arrow"></i>
+            </div>
         </div>
     </section> 
 
-
 <!-- CATEGORIES SECTION -->
     <section class="categories" id="categories">
-        <div class="category-item category-item-1">
-            <p class="category-sidetitle sideways">
-                Diverse Products.
-            </p>
-            <div class="image-container">
-                <img src="assets/image-1.png" alt="woman wearing a statement necklace">
+        <!-- <div class="large-container"> -->
+            <div class="category-item category-item-1">
+                <p class="category-sidetitle sideways">
+                    Diverse Products.
+                </p>
+                <div class="image-container">
+                    <img src="assets/image-1.png" alt="woman wearing a statement necklace">
+                </div>
+                <h2 class="category-title">
+                    Fashion  & Accessories
+                </h2>
+            
             </div>
-            <h2 class="category-title">
-                Fashion and Accessories
-            </h2>
-         
-        </div>
 
-        <div class="category-item category-item-2">
-            <p class="category-sidetitle sideways">
-                Unique Novelties.
-            </p>
-            <div class="image-container">
-                <img src="assets/image-2.png" alt="Woman in a dress with a pink blazer, backpack and heels">
+            <div class="category-item category-item-2">
+                <p class="category-sidetitle sideways">
+                    Unique Novelties.
+                </p>
+                <div class="image-container">
+                    <img src="assets/image-2.png" alt="Woman in a dress with a pink blazer, backpack and heels">
+                </div>
+                <h2 class="category-title">
+                    New Collections
+                </h2>
             </div>
-            <h2 class="category-title">
-                New Collections
-            </h2>
-        </div>
 
-        <div class="category-item category-item-3">
-            <p class="category-sidetitle sideways">
-                Diverse Products.
-            </p>
-            <div class="image-container">
-                <img src="assets/image-3.png" alt="close up off-center photo of a model wearing a blouse with a sweater">
+            <div class="category-item category-item-3">
+                <p class="category-sidetitle sideways">
+                    Diverse Products.
+                </p>
+                <div class="image-container">
+                    <img src="assets/image-3.png" alt="close up off-center photo of a model wearing a blouse with a sweater">
+                </div>
+                <h2 class="category-title">
+                    Spring/Summer Lookbook
+                </h2>
             </div>
-            <h2 class="category-title">
-                Spring/Summer Lookbook
-            </h2>
-        </div>
+        <!-- </div> -->
     </section>
 
     
@@ -224,35 +290,35 @@
 
             <div class="product-list">
                 <div class="product product-1">
-                    <img src="assets/top-product-1.png" alt="Light pink crochet Sweater">
+                    <img src="assets/top-product-1.png" class="product-image" alt="Light pink crochet Sweater">
                     <p class="product-description">Lipsy Crochet Sweater</p>
                     <p class="product-type">Sweater</p>
                     <p class="product-price">$ 100.00 <span><del>$150.00</del></span></p>
-                    <img src="assets/shopping-bag.png" alt="Add to cart">
+                    <img src="assets/shopping-bag.png" class="bag" alt="Add to cart">
                 </div>
 
                 <div class="product product-2">
-                    <img src="assets/top-product-2.png" alt="Sea-foam Green Infinity Scarf">
+                    <img src="assets/top-product-2.png" class="product-image" alt="Sea-foam Green Infinity Scarf">
                     <p class="product-description">Signature Oblong Scarf</p>
                     <p class="product-type">Accessories</p>
                     <p class="product-price">$ 45.00</p>
-                    <img src="assets/shopping-bag.png" alt="Add to cart">
+                    <img src="assets/shopping-bag.png" class="bag" alt="Add to cart">
                 </div>
 
                 <div class="product product-3">
-                    <img src="assets/top-product-3.png" alt="Floppy felt wool hat in black">
+                    <img src="assets/top-product-3.png" class="product-image" alt="Floppy felt wool hat in black">
                     <p class="product-description">Floppy Felt Wool Hat</p>
                     <p class="product-type">Accessories</p>
                     <p class="product-price">$ 90.00</p>
-                    <img src="assets/shopping-bag.png" alt="Add to cart">
+                    <img src="assets/shopping-bag.png" class="bag" alt="Add to cart">
                 </div>
 
                 <div class="product product-4">
-                    <img src="assets/Top-product-4.png" alt="Light Grey embroidered T-shirt">
+                    <img src="assets/Top-product-4.png" class="product-image" alt="Light Grey embroidered T-shirt">
                     <p class="product-description">Embroidered Skater T-Shirt</p>
                     <p class="product-type">T-shirt</p>
                     <p class="product-price">$ 55.00</p>
-                    <img src="assets/shopping-bag.png" alt="Add to cart">
+                    <img src="assets/shopping-bag.png" class="bag" alt="Add to cart">
                 </div>
             </div>
         </div>
@@ -272,65 +338,99 @@
                 </a>
             </div>
         </div>
-        <!-- <img src="assets/lookbook-border.png" alt="">
         <div class="lookbook-slider-arrows">
-            <i class="fas fa-angle-left arrow"></i>
-            <i class="fas fa-angle-right arrow"></i>
-        </div> -->
+            <div class="arrow-left">
+                <i class="fas fa-angle-left arrow"></i>
+            </div>
+        
+            <div class="arrow-right">
+                <i class="fas fa-angle-right arrow"></i>
+            </div>
+        </div>
     </section>
 
 <!-- SALE SECTION -->
-        <section class="sale" id="sale">
-            <div class="container">
-                <h2>Onsale Products</h2>
-                <div class="product-nav">
-                    <p>Come & Check our sale items from collection 2017</p>
-                    <p><span>Prev</span> / Next</p>
-                </div>
-            
-                <div class="product-list">
-                    <div class="product product-1">
-                        <img src="assets/onsale-products-1.png" alt="tight light blue jeans for men">
-                        <p class="product-description"> Stretch Bootcut Jeans</p>
-                        <p class="product-type">Pants</p>
-                        <p class="product-price">$ 120.00
-                            <span><del>$150.00</del></span>
-                        </p>
-                        <img src="assets/shopping-bag.png" alt="Add to cart">
-                    </div>
-            
-                    <div class="product product-2">
-                        <img src="assets/onsale-products-2.png" alt="Loose-fitting Denim Jacket">
-                        <p class="product-description">Washed Denim Jacket</p>
-                        <p class="product-type">Jacket</p>
-                        <p class="product-price">$ 55.00</p>
-                        <img src="assets/shopping-bag.png" alt="Add to cart">
-                    </div>
-            
-                    <div class="product product-3">
-                        <img src="assets/onsale-products-3.png" alt="White and black polkadot Bathing suit with Black High-Waisted Bottoms">
-                        <p class="product-description">High-Waisted Bikini Set</p>
-                        <p class="product-type">Swim Wear</p>
-                        <p class="product-price">$ 25.00</p>
-                        <img src="assets/shopping-bag.png" alt="Add to cart">
-                    </div>
-            
-                    <div class="product product-4">
-                        <img src="assets/onsale-products-4.png" alt="Large pink scarf with black detail">
-                        <p class="product-description">Blanket Scarf</p>
-                        <p class="product-type">Accessories</p>
-                        <p class="product-price">$ 35.00</p>
-                        <img src="assets/shopping-bag.png" alt="Add to cart">
-                    </div>
-                </div>
-
+    <section class="sale" id="sale">
+        <div class="container">
+            <h2>Onsale Products</h2>
+            <div class="product-nav">
+                <p>Come & Check our sale items from collection 2017</p>
+                <p><span>Prev</span> / Next</p>
             </div>
-        </section>
+        
+            <div class="product-list">
+                <div class="product product-1">
+                    <img src="assets/onsale-products-1.png" class="product-image" alt="tight light blue jeans for men">
+                    <p class="product-description"> Stretch Bootcut Jeans</p>
+                    <p class="product-type">Pants</p>
+                    <p class="product-price">$ 120.00
+                        <span><del>$150.00</del></span>
+                    </p>
+                    <img src="assets/shopping-bag.png" class="bag" alt="Add to cart">
+                </div>
+        
+                <div class="product product-2">
+                    <img src="assets/onsale-products-2.png" class="product-image" alt="Loose-fitting Denim Jacket">
+                    <p class="product-description">Washed Denim Jacket</p>
+                    <p class="product-type">Jacket</p>
+                    <p class="product-price">$ 55.00</p>
+                    <img src="assets/shopping-bag.png" class="bag" alt="Add to cart">
+                </div>
+        
+                <div class="product product-3">
+                    <img src="assets/onsale-products-3.png" class="product-image" alt="White and black polkadot Bathing suit with Black High-Waisted Bottoms">
+                    <p class="product-description">High-Waisted Bikini Set</p>
+                    <p class="product-type">Swim Wear</p>
+                    <p class="product-price">$ 25.00</p>
+                    <img src="assets/shopping-bag.png" class="bag" alt="Add to cart">
+                </div>
+        
+                <div class="product product-4">
+                    <img src="assets/onsale-products-4.png" class="product-image"alt="Large pink scarf with black detail">
+                    <p class="product-description">Blanket Scarf</p>
+                    <p class="product-type">Accessories</p>
+                    <p class="product-price">$ 35.00</p>
+                    <img src="assets/shopping-bag.png" class="bag" alt="Add to cart">
+                </div>
+            </div>
 
-<!-- BLOG SECTION -->
+        </div>
+    </section>
+
+    <!-- BLOG SECTION -->
     <section class="blog" id="blog">
         <div class="container">
-        
+            <h2>Our Blog</h2>
+            <div class="blog-item-1">
+                <div class="blog-item-1-text">
+                    <p class="blog-section">Lookbook</p>
+                    <p class="blog-title">Excerpt: A Sense of Belonging</p>
+                    <p class="blog-date">4 October 2018 / 368 Comments</p>
+                    <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer auctor, bus purus eget molestie orci. In hac habitasse platea
+                    di Curabitur euismod mattis neque.</p>
+                </div>
+                <img src="assets/blog-1.png" alt="Man wearing a black tshirt with a cartoon skeleton hand in a peace sign">
+            </div>
+
+            <div class="blog-item-2">
+                <img src="assets/blog-2.png" alt="Woman in stripped outfit wearing a hat walking between two buildings">
+                <div class="blog-item-2-text">
+                    <p class="blog-section">Campaign</p>
+                    <p class="blog-title">Check & Peck 2018</p>
+                    <p class="blog-date">4 October 2018 / 363 Comments</p>
+                    <p class="blog-content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Intege auctor, bus purus eget molestie orci. In hac habitasse platei
+                    Curabitur euismod mattis nequi quitt</p>
+                </div>
+            </div>
+            <div class="blog-slider-arrows">
+                <div class="arrow-left">
+                    <i class="fas fa-angle-left arrow"></i>
+                </div>
+            
+                <div class="arrow-right">
+                    <i class="fas fa-angle-right arrow"></i>
+                </div>
+            </div>
         </div>
     </section>
 
@@ -373,7 +473,7 @@
                         </p>
                     </div>
 
-                    <div class="footer-nav-item">
+                    <div class="footer-nav-item footer-tags">
                         <p class="footer-heading">Tags</p>
                         <ul class="footer-nav-tags">
                             <li><a href="#">creative</a></li>
@@ -387,7 +487,7 @@
                         </ul>
                     </div>
 
-                    <div class="footer-nav-item">
+                    <div class="footer-nav-item footer-instagram">
                         <p class="footer-heading">Instagram</p>
                         <div class="footer-nav-instagram-preview">
                             <img src="assets/insta-1.png" alt="">
@@ -399,7 +499,7 @@
                         </div>
                     </div>
 
-                    <div class="footer-nav-item">
+                    <div class="footer-nav-item footer-nav-newsletter">
                         <p class="footer-heading">Newsletter</p>
                         <p>Sign up for out Newsletter & Events</p>
                         <input type="email" name="newsletter" id="newsletter">
@@ -427,7 +527,7 @@
                         </li>
 
                         <li>
-                            <a href="https://www.facebook.com/"></a>Facebook</a>
+                            <a href="https://www.facebook.com/">Facebook</a>
                         </li>
 
                         <li>
@@ -444,7 +544,7 @@
             <div class="container">
                 <div class="footer-legal-content">
                     <p>&copy; Maxshop 2016. All rights reserved</p>
-                    <p><a href="#">Terms of Use</a> <a href="#">Privacy policy</a> <a href="#">Contact us</a></p>
+                    <p><a href="#">Terms of Use</a> | <a href="#">Privacy policy</a> | <a href="#">Contact us</a></p>
                 </div>
             </div>
         </section>

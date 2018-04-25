@@ -3,9 +3,10 @@ h1, h2, h3, h4 {
 }
 
 h1 {
-    font-size: 8rem;
+    font-size: 6rem;
     font-weight: 700;
-    width: 150%;
+    width: 250%;
+    margin: 20px 0;
 }
 
 h2 {
@@ -14,7 +15,7 @@ h2 {
 }
 
 h3 {
-    font-size: 2.8rem;
+    font-size: 1.8rem;
     font-weight: 700;
     font-family: $roboto;
     color: $silver-chalice;
@@ -24,12 +25,6 @@ h4 {
     font-size: 1.8rem;
     font-weight: 400;
     line-height: 30px;
-}
-
-.footer-heading {
-    text-transform: uppercase;
-    color: $tacha;
-    margin-bottom: 50px;
 }
 
 

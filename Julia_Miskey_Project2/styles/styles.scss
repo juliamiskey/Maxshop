@@ -5,13 +5,9 @@
 @import 'components/header.scss';
 @import 'components/body.scss';
 @import 'components/footer.scss';
+@import 'mediaqueries.scss';
 
-/* GENERAL STYLES */
-
-// * {
-//     border: 1px solid red;
-// }
-
+//  GENERAL STYLES 
 html {
     font-size: 62.5%;
     margin: 0 auto;
@@ -35,14 +31,12 @@ body {
 }
 
 .container {
-    /* Width calculation: 1172px/1920px=61% */
-    width: 61%;
+    width: 67%;
     max-width: 1172px;
     margin: 0 auto;
 }
 
 .img-container {
-    object-fit: fill;
     width: 100%; 
 }
 
@@ -65,4 +59,12 @@ ul {
     transform: rotate(-90deg); 
 }
 
+.hero,
+.categories,
+.products,
+.lookbook,
+.sale,
+.blog {
+    margin-bottom: 10%;
+}
 

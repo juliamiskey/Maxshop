@@ -3,12 +3,19 @@
 footer {
     background: $mine-shaft;
     color: $alabaster;
+    font-family: $roboto;
     a {
         color: $alabaster;
         a:hover {
             color: $tacha;
         }
     }
+}
+.footer-heading {
+    text-transform: uppercase;
+    color: $tacha;
+    margin-bottom: 50px;
+    font-family: $montserrat;
 }
 
 .footer-nav-and-socials {
@@ -29,7 +36,6 @@ footer {
     :hover {
         color: $tacha;
     }
-
 }
 
 .footer-nav-instagram-preview {
@@ -38,34 +44,34 @@ footer {
     grid-template-rows: 1fr 1fr 1fr;
     grid-gap: .5em;
     margin: 0 auto;
-
 }
+
+// .footer-nav-newsletter {
+//     input {
+//         display: inline-block;
+//     }
+// }
+input {
+    display: inline-block;
+}
+
+//  input[type="email"] {
+
+//  }
+
+//   input[type="submit"]
 
 .footer-socials {
     text-align: center;
     li {
         display: inline-block;
-        margin: 20px;
-         a:hover {
+        padding: 10px 30px;
+        :hover {
             border: 1px solid $tacha;
+            border-radius: 50px;
         }
     }
 }
-
-// MEDIA QUERIES
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-};
-
-    
-/* Landscape phone to portrait tablet */
-@media (min-width: 768px) { 
-};
-    
-/* Landscape phones and down */
-@media (max-width: 480px) {
-};
-a
 
 // FOOTER-LEGAL STYLES
 .footer-legal {
@@ -76,21 +82,6 @@ a
 .footer-legal-content {
     display: flex;
     justify-content: space-between;
-    a {
-        border-right: 1px solid #e0e0e0;
-    }
 }
 
-// MEDIA QUERIES
-/* Portrait tablet and small desktops */
-@media (max-width: 940px) {
-};
 
-    
-/* Landscape phone to portrait tablet */
-@media (min-width: 768px) { 
-};
-    
-/* Landscape phones and down */
-@media (max-width: 480px) {
-};

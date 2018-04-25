@@ -1,0 +1,332 @@
+
+//  // GENERAL MEDIA QUERIES
+@media (max-width: 940px) {
+    .container {
+       width: 90%;
+    }
+}
+
+@media (min-width: 768px) { 
+    .container {
+       width: 90%;
+    }
+}
+    
+@media (max-width: 480px) {
+    .container {
+       width: 90%;
+    }
+}
+
+
+// // TYPOGRAPHY MEDIA QUERIES
+@media (max-width: 940px) {
+    h2, h3, h4 {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) { 
+    h2, h3, h4 {
+    text-align: center;
+    }
+}
+    
+@media (max-width: 480px) {
+   h2, h3, h4 {
+    text-align: center;
+    }
+}
+
+
+// HERO MEDIA QUERIES
+@media (max-width: 940px) {
+    .hero-page-number {
+        display: none;
+    }
+}
+
+@media (min-width: 768px) { 
+    .hero {
+        background-image: url(../assets/main-image-1.png);
+        background-size: cover;
+        .hero-content,
+        h1,
+        a {
+            color: $alabaster;
+            text-align: center;
+        }
+    }
+
+    h3,
+    .hero-today,
+    .hero-slider-display,
+    .hero-image,
+    .hero-page-number {
+        display: none;
+    }
+}
+    
+@media (max-width: 480px) {
+    .hero {
+        background-image: url(../assets/main-image-1.png);
+        background-size: cover;
+        .hero-content,
+        h1,
+        a {
+            color: $alabaster;
+            text-align: center;
+        }
+    }
+
+    h3,
+    .hero-today,
+    .hero-slider-display,
+    .hero-image,
+    .hero-page-number {
+        display: none;
+    }
+}
+
+
+// // CATEGORIES MEDIA QUERIES
+@media (max-width: 940px) {
+    .categories {
+       flex-direction: column;
+    }
+}
+
+@media (min-width: 768px) { 
+    .categories {
+       flex-direction: column;
+    }
+    .category-sidetitle {
+        display: none;
+    }
+}
+    
+@media (max-width: 480px) {
+    .categories {
+       flex-direction: column;
+    }
+    .category-sidetitle {
+        display: none;
+    }
+}
+
+// // PRODUCT SECTION MEDIA QUERIES
+@media (max-width: 940px) {
+    .product-list {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bag {
+        padding: 10px 30px;
+    }
+}
+
+@media (min-width: 768px) { 
+    .product-list,
+    .product-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bag {
+        padding: 10px 30px;
+    }
+}
+    
+@media (max-width: 480px) {
+    .product-list,
+    .product-nav {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bag {
+        padding: 10px 30px;
+    }
+}
+
+// // LOOKBOOK MEDIA QUERIES
+@media (max-width: 940px) {
+    .lookbook {
+        flex-direction: column;
+    }
+    .lookbook-content {
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) { 
+    .lookbook {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+    
+@media (max-width: 480px) {
+    .lookbook {
+        flex-direction: column;
+    }
+}
+
+// OUT BLOG MEDIA QUERIES
+@media (max-width: 940px) {
+    .blog-item-1,  
+    .blog-item-2  {
+        flex-direction: column;
+    }
+
+    .promotion-fashion-shop img {
+        display: none;
+    }
+
+    .blog-item-1-text,  
+    .blog-item-2-text {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+@media (min-width: 768px) { 
+    .blog-item-1,  
+    .blog-item-2  {
+        flex-direction: column;
+    }
+
+    .promotion-fashion-shop img {
+        display: none;
+    }
+
+    .blog-item-1-text,  
+    .blog-item-2-text {
+        text-align: center;
+        padding: 0;
+    }
+}
+    
+@media (max-width: 480px) {
+    .blog-item-1,  
+    .blog-item-2  {
+        flex-direction: column;
+    }
+
+    .promotion-fashion-shop img {
+        display: none;
+    }
+
+    .blog-item-1-text,  
+    .blog-item-2-text {
+        text-align: center;
+        padding: 0;
+    }
+}
+
+// // PROMOTIONS MEDIA QUERIES
+@media (max-width: 940px) {
+    .promotions {
+        flex-direction: column;
+    }
+    .promotion-design-text,
+    .promotion-fashion-shop-text {
+        text-align: center;
+        top: 0;
+        p {
+            display: none;
+        }
+    }
+}
+
+@media (min-width: 768px) { 
+    .promotions {
+        flex-direction: column;
+    }
+    .promotion-design-text,
+    .promotion-fashion-shop-text {
+        text-align: center;
+        top: 0;
+        left: 30%;
+        h2, p {
+            display: none;
+        }
+    }
+}
+    
+@media (max-width: 480px) {
+    .promotions {
+        flex-direction: column;
+    }
+     .promotion-design-text,
+    .promotion-fashion-shop-text {
+        text-align: center;
+        top: 0;
+        left: 30%
+        h2, p {
+            display: none;
+        }
+    }
+}
+
+// // FOOTER MEDIA QUERIES
+@media (max-width: 940px) {
+    .footer-nav-item {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-tags,
+    .footer-instagram,
+    .footer-nav-newsletter {
+        display: none;
+    }
+
+    .footer-socials {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (min-width: 768px) { 
+    .footer-nav-item,
+    .footer-legal-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-tags,
+    .footer-instagram,
+    .footer-nav-newsletter  {
+        display: none;
+    }
+
+    .footer-socials {
+        display: block;
+        text-align: center;
+    }
+}
+    
+@media (max-width: 480px) {
+    .footer-nav-item,
+    .footer-legal-content {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .footer-tags,
+    .footer-instagram,
+    .footer-nav-newsletter  {
+        display: none;
+    }
+
+    .footer-socials {
+        display: block;
+        text-align: center;
+    }
+}
+
