@@ -3,12 +3,15 @@
 
 <head>
     <!-- FAVICON -->
-    <link type="assets/logo.png" rel="icon" href="assets/logo-icon.png">
+    <link type="assets/logo.png" rel="icon" href="assets/logo.png">
 
     <!-- METATAGS -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content="maxshop">
+    <meta name="keywords" content="maxshop, clothing, blog">
+    <meta name="author" content="Julia Miskey">
     <title>maxshop | Home</title>
 
     <!-- GOOGLE FONTS-->
@@ -69,63 +72,73 @@
     </nav>
 
 <!-- HAMBURGER MENU -->
-<!-- <nav class="hamburger-menu">
     <span class="open-side">
         <a href="#" onclick="openSideMenu()">
             <svg width="30" height="30">
-                <path d="M0,5 30,5" stroke="#fff" stroke-width="5" />
-                <path d="M0,14 30,14" stroke="#fff" stroke-width="5" />
-                <path d="M0,23 30,23" stroke="#fff" stroke-width="5" />
+                <path d="M0,5 30,5" stroke="#333" stroke-width="5" />
+                <path d="M0,14 30,14" stroke="#333" stroke-width="5" />
+                <path d="M0,23 30,23" stroke="#333" stroke-width="5" />
             </svg>
         </a>
     </span>
-</nav>
 
 
 <div id="side-nav" class="side-nav">
     <a href="#" class="close-side" onclick="closeSideMenu()">&times;</a>
-    <nav class="main-nav">
-        <ul>
-            <li class="menu-item">
-                <a href="#home">Home</a>
-            </li>
+    <ul>
+        <li class="menu-item">
+            <a href="#home">Home</a>
+        </li>
 
-            <li class="menu-item">
-                <a href="#sale">Fashion & Accessories</a>
-            </li>
+        <li class="menu-item">
+            <a href="#sale">Fashion & Accessories</a>
+        </li>
 
-            <li class="menu-item">
-                <a href="#top-products">New Collection</a>
-            </li>
+        <li class="menu-item">
+            <a href="#top-products">New Collection</a>
+        </li>
 
-            <li class="menu-item">
-                <a href="#lookbook">Spring/Summer Lookbook</a>
-            </li>
+        <li class="menu-item">
+            <a href="#lookbook">Spring/Summer Lookbook</a>
+        </li>
 
-            <li class="menu-item">
-                <a href="#lookbook">Lookbook</a>
-            </li>
+        <li class="menu-item">
+            <a href="#lookbook">Lookbook</a>
+        </li>
 
-            <li class="menu-item">
-                <a href="#contact">Contact</a>
-            </li>
+        <li class="menu-item">
+            <a href="#contact">Contact</a>
+        </li>
 
-            <li class="menu-item">
-                <a href="#blog">Blog</a>
-            </li>
-        </ul>
-    </nav>
+        <li class="menu-item">
+            <a href="#blog">Blog</a>
+        </li>
+
+        <li class="menu-item">
+            <a href="#search">Search</a>
+        </li>
+
+        <li class="menu-item">
+            <a href="#login">My Account</a>
+        </li>
+
+        <li class="menu-item">
+            <a href="#shopping-bag">View Shopping Bag</a>
+        </li>
+    </ul>
 </div>
 
-SCRIPT FOR SIDE MENU 
+<!-- SCRIPT FOR SIDE MENU -->
 <script>
     function openSideMenu() {
-        document.getElementById('side-nav').style.width = '25%';
+        document.getElementById('side-nav').style.width = '100%';
     }
     function closeSideMenu() {
         document.getElementById('side-nav').style.width = '0%';
     }
-</script> -->
+</script>
+
+
     <div class="controls">
         <ul>
             <li class="currency">
@@ -338,15 +351,6 @@ SCRIPT FOR SIDE MENU
                 </a>
             </div>
         </div>
-        <div class="lookbook-slider-arrows">
-            <div class="arrow-left">
-                <i class="fas fa-angle-left arrow"></i>
-            </div>
-        
-            <div class="arrow-right">
-                <i class="fas fa-angle-right arrow"></i>
-            </div>
-        </div>
     </section>
 
 <!-- SALE SECTION -->
@@ -422,15 +426,6 @@ SCRIPT FOR SIDE MENU
                     Curabitur euismod mattis nequi quitt</p>
                 </div>
             </div>
-            <div class="blog-slider-arrows">
-                <div class="arrow-left">
-                    <i class="fas fa-angle-left arrow"></i>
-                </div>
-            
-                <div class="arrow-right">
-                    <i class="fas fa-angle-right arrow"></i>
-                </div>
-            </div>
         </div>
     </section>
 
@@ -461,7 +456,7 @@ SCRIPT FOR SIDE MENU
         <section class="footer-nav-and-socials">
             <div class="container">
                 <div class="footer-nav">
-                    <div class="footer-nav-item">
+                    <div class="footer-nav-item footer-contact">
                         <p class="footer-heading">Contact</p>
                         <address>
                             621 Bingamon Branch Road Warwick NY 10990
